@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{209242CA-98DA-43D9-0C6C-6EE609AB8E64}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs">
+    <Files>
+      <File FileName="Assets/Items/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" Line="8" Column="1" />
+      <File FileName="Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" Line="8" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
