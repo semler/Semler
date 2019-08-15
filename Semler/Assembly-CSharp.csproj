@@ -60,31 +60,39 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Items\Nokobot\ModernGuns_Handgun\Demo Assets\SimpleShoot.cs" />
-    <Compile Include="Assets\Items\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
-    <Compile Include="Assets\Items\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Items\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
-    <Compile Include="Assets\Items\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs" />
-    <Compile Include="Assets\Items\unity-chan!\Unity-chan! Model\Scripts\IKCtrlRightHand.cs" />
-    <Compile Include="Assets\Items\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs" />
-    <Compile Include="Assets\Items\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
-    <Compile Include="Assets\Items\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
-    <Compile Include="Assets\Items\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />
-    <Compile Include="Assets\Items\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs" />
-    <Compile Include="Assets\Items\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
-    <Compile Include="Assets\Items\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
-    <None Include="Assets\Items\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
-    <None Include="Assets\Items\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
-    <None Include="Assets\Items\unity-chan!\Unity-chan! Model\Audio\Voice\unity-chan_voice_list.txt" />
-    <None Include="Assets\Items\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
-    <None Include="Assets\Items\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
-    <None Include="Assets\Items\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
-    <None Include="Assets\Items\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
-    <None Include="Assets\Items\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
-    <None Include="Assets\Items\unity-chan!\Unity-chan! Model\Art\Stage\Shader\AlphaMask.shader" />
-    <None Include="Assets\Items\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
-    <None Include="Assets\Items\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
-    <None Include="Assets\Items\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+    <Compile Include="Assets\Nokobot\ModernGuns_Handgun\Demo Assets\SimpleShoot.cs" />
+    <Compile Include="Assets\Scripts\UnityChanAction.cs" />
+    <Compile Include="Assets\Scripts\UnityChanMove.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IKCtrlRightHand.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
+    <Compile Include="Assets\Virtual Joystick Pack\Examples\2D Example\Player2DExample.cs" />
+    <Compile Include="Assets\Virtual Joystick Pack\Examples\3D Example\Player3DExample.cs" />
+    <Compile Include="Assets\Virtual Joystick Pack\Scripts\Base\Joystick.cs" />
+    <Compile Include="Assets\Virtual Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
+    <Compile Include="Assets\Virtual Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+    <Compile Include="Assets\Virtual Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
+    <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+    <None Include="Assets\unity-chan!\Unity-chan! Model\Audio\Voice\unity-chan_voice_list.txt" />
+    <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+    <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+    <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+    <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+    <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+    <None Include="Assets\unity-chan!\Unity-chan! Model\Art\Stage\Shader\AlphaMask.shader" />
+    <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+    <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+    <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/semler/Semler/Semler/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
